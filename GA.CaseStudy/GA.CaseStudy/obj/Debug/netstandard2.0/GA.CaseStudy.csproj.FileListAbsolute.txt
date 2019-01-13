@@ -1,0 +1,15 @@
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\bin\Debug\netstandard2.0\GA.CaseStudy.deps.json
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\bin\Debug\netstandard2.0\GA.CaseStudy.dll
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\bin\Debug\netstandard2.0\GA.CaseStudy.pdb
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.csprojAssemblyReference.cache
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\Detail.xaml.g.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\ExamplePage.xaml.g.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.csproj.CoreCompileInputs.cache
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.AssemblyInfoInputs.cache
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.AssemblyInfo.cs
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.dll
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\GA.CaseStudy.pdb
+C:\Users\mertsenturk\source\repos\GA.CaseStudy\GA.CaseStudy\GA.CaseStudy\obj\Debug\netstandard2.0\XamlC.stamp

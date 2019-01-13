@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GA.CaseStudy.LoginPage"
+             xmlns:Custom="clr-namespace:GA.CaseStudy.Custom">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Spacing="0" Padding="0">
+            <BoxView  HeightRequest="100"
+          VerticalOptions="Start" Color="White" />
+            <Image Source="apsiyonLogo.png" HeightRequest="100" WidthRequest="100"
+                HorizontalOptions="Center" VerticalOptions="Start" />
+
+            <StackLayout HeightRequest="200" Margin="0,20,0,0" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="5">
+                <Label Text="E-Posta veya Cep Telefonu"></Label>
+                <Custom:LoginEntry  Margin="30,0,30,0" x:Name="NameEntry" HorizontalTextAlignment="Center"   VerticalOptions="Center" FontSize="Default"></Custom:LoginEntry>
+                <Label Margin="0,10,0,0" Text="Yeni Şifre"></Label>
+                <Custom:LoginEntry  Margin="30,0,30,0" IsPassword="True"  x:Name="PasswordEntry"  HorizontalTextAlignment="Center"   VerticalOptions="Center" FontSize="Default"></Custom:LoginEntry>
+             
+
+            </StackLayout>
+
+            <Button Clicked="LoginEvent" BorderRadius="50" WidthRequest="50" x:Name="BtnLogin" Margin="120,0,120,0" Text="Giriş" BackgroundColor="#00ADEE" TextColor="White"></Button>
+
+
+            <StackLayout Margin="0,0,0,15" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Spacing="20">
+                <Custom:UnderlineLbl FontAttributes="Bold" Text="Şifremi Unuttum"></Custom:UnderlineLbl>
+               
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

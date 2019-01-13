@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GA.CaseStudy.Detail"
+             xmlns:converter="clr-namespace:GA.CaseStudy.Converter"
+             Title="Apsiyon">
+    <ContentPage.Resources>
+        <converter:StringToColorConverter x:Key="StringToColorConverter"></converter:StringToColorConverter>
+        <converter:ValueConverter x:Key="ValueConverter"></converter:ValueConverter>
+    </ContentPage.Resources>
+    <StackLayout VerticalOptions="StartAndExpand">
+        <ListView  RowHeight="70" x:Name="lstMenu"  ItemsSource="{Binding Detail}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid BackgroundColor="White" Padding="0,0,10,0" VerticalOptions="FillAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <StackLayout Orientation="Horizontal"
+                                                 HorizontalOptions="Start"
+                                                 Padding="10"
+                                                 WidthRequest="70">
+                                <Image Source="listImg3x.png" 
+                                           VerticalOptions="FillAndExpand" 
+                                           HorizontalOptions="FillAndExpand" />
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical"                                              
+                                             Grid.Column="1"
+                                             Grid.ColumnSpan="3"
+                                             VerticalOptions="Center"
+                                             Padding="1,0,0,0"
+                                             Spacing="0"
+
+                                             >
+                                <Label Text="{Binding Title}" FontSize="15"/>
+                                <Label Text="{Binding SubTitle}"  FontSize="15" />
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="listImg.png" WidthRequest="20" />
+                                    <Label Text="{Binding YetkiliKisi}" XAlign="Center" FontSize="10" />
+                                </StackLayout>
+
+                            </StackLayout>
+
+                            <StackLayout Orientation="Vertical"  Grid.Column="4" Spacing="-1" VerticalOptions="Center" Margin="-15,0,0,0">
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <Label Text="Bakiye:" FontSize="10" TextColor="Black" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <Label TextColor="{Binding Bakiye,Converter={StaticResource  StringToColorConverter}}" Text="{Binding Bakiye,Converter={StaticResource ValueConverter}}" FontSize="15"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
